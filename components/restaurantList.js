@@ -56,7 +56,7 @@ if(searchQuery.length > 0){
           top={true}
           style={{ height: 200 }}
           src={
-          `http://localhost:1337`+ res.image.url
+          `https://coral-app-wbdgl.ondigitalocean.app`+ res.image.url
           }
         />
         <CardBody>
