@@ -50,7 +50,7 @@ let restId = searchQuery[0].id
   };
 if(searchQuery.length > 0){
   const restList = searchQuery.map((res) => (
-    <Col md="6" sm="1" key={res.id}>
+    <Col md="4" sm="1" key={res.id}>
       <Card style={{ margin: "0.5rem 0.5rem 20px 0.5rem" }}>
         <CardImg
           top={true}
