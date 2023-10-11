@@ -9,7 +9,7 @@ import Cookie from "js-cookie";
 import { logout } from "./auth";
 
 const Layout = (props) => {
-const title = "Welcome to Nextjs";
+const title = "Welcome to LocalsEat";
 //const {user} = useContext(AppContext);
 //console.log("user in layout.js = "+user);
 const user = Cookie.get("username");
