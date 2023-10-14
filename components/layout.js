@@ -40,7 +40,7 @@ const user = Cookie.get("username");
             }
           `}
         </style>
-        <Nav className="navbar navbar-dark bg-warning">
+        <Nav className="navbar navbar-dark bg-info">
           <NavItem>
             <Link href="/">
               <a className="navbar-brand" style={{color: "white"}}>Home</a>
