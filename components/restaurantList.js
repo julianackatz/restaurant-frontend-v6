@@ -56,7 +56,7 @@ if(searchQuery.length > 0){
           top={true}
           style={{ height: 200 }}
           src={
-          `https://coral-app-wbdgl.ondigitalocean.app`+ res.image.url
+          `https://seashell-app-ihk8f.ondigitalocean.app`+ res.image.url
           }
         />
         <CardBody>

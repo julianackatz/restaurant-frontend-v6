@@ -35,7 +35,7 @@ function CheckoutForm() {
     // // Pass the Element directly to other Stripe.js methods:
     // // e.g. createToken - https://stripe.com/docs/js/tokens_sources/create_token?type=cardElement
     // get token back from stripe to process credit card
-    const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://coral-app-wbdgl.ondigitalocean.app";
+    const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://seashell-app-ihk8f.ondigitalocean.app";
 
     const token = await stripe.createToken(cardElement);
     const userToken = Cookies.get("token");
