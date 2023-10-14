@@ -43,7 +43,7 @@ const user = Cookie.get("username");
         <Nav className="navbar navbar-dark bg-dark">
           <NavItem>
             <Link href="/">
-              <a className="navbar-brand" style="color:#fff;">Home</a>
+              <a className="navbar-brand" style={{color: "white"}}>Home</a>
             </Link>
           </NavItem>
           <NavItem className="ml-auto">
@@ -51,14 +51,14 @@ const user = Cookie.get("username");
               <h5>{user}</h5>
             ) : (
               <Link href="/register">
-                <a className="nav-link" style="color:#fff;"> Sign up</a>
+                <a className="nav-link" style={{color: "white"}}> Sign up</a>
               </Link>
             )}
           </NavItem>
           <NavItem>
             {user ? (
               <Link href="/">
-                <a style="color:#fff;"
+                <a style={{color: "white"}}
                   className="nav-link"
                   onClick={() => {
                     logout();
