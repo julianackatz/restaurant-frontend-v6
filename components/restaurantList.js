@@ -64,7 +64,7 @@ if(searchQuery.length > 0){
         </CardBody>
         <div className="card-footer">
         
-        <Button color="info" onClick={()=> setRestaurantID(res.id)}>{res.name}</Button>
+        <Button color="warning" onClick={()=> setRestaurantID(res.id)}>{res.name}</Button>
          
         </div>
       </Card>
