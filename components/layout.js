@@ -70,7 +70,7 @@ const user = Cookie.get("username");
               </Link>
             ) : (
               <Link href="/login">
-                <a className="nav-link">Sign in</a>
+                <a className="nav-link" style={{color: "white"}}>Sign in</a>
               </Link>
             )}
           </NavItem>
